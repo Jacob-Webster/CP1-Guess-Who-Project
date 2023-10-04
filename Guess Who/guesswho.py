@@ -1,16 +1,17 @@
 # Imports
-from Characteristics import Characteristics_Dict
+from Characteristics import Characteristics_Dict, Character_List
 from Computer import Easy_Mode, Normal_Mode, Hard_Mode
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk
+import random
 
 # Create the game window
 window = Tk()
 window.title("Guess Who?")
 window.state("zoomed")
 
-# Characters directories 
+# Characters directories
 Alex_Image = Image.open(r'C:\Users\WebsterJacobM\Desktop\Guess Who\Character Images\Alex.png')
 Alex_Image = Alex_Image.resize((135, 320))
 Alex_Image = ImageTk.PhotoImage(Alex_Image)
@@ -84,8 +85,43 @@ Tom_Image = Image.open(r'C:\Users\WebsterJacobM\Desktop\Guess Who\Character Imag
 Tom_Image = Tom_Image.resize((135, 320))
 Tom_Image = ImageTk.PhotoImage(Tom_Image)
 
+# Creates the main board with the character images
 mainframe = ttk.Frame(window)
 mainframe.grid(column=0, row=0, padx=20, pady=20)
-Alex_Label = ttk.Label(mainframe, image=Alex_Image).pack()
-Alfred_Label = ttk.Label(mainframe, image=Alfred_Image).pack()
+Alex_Label = ttk.Label(mainframe, image=Alex_Image).grid(column=0, row=0)
+Alfred_Label = ttk.Label(mainframe, image=Alfred_Image).grid(column=1, row=0)
+Anita_Label = ttk.Label(mainframe, image=Anita_Image).grid(column=2, row=0)
+Anne_Label = ttk.Label(mainframe, image=Anne_Image).grid(column=3, row=0)
+Bernard_Label = ttk.Label(mainframe, image=Bernard_Image).grid(column=4, row=0)
+Bill_Label = ttk.Label(mainframe, image=Bill_Image).grid(column=5, row=0)
+Charles_Label = ttk.Label(mainframe, image=Charles_Image).grid(column=6, row=0)
+Claire_Label = ttk.Label(mainframe, image=Claire_Image).grid(column=7, row=0)
+David_Label = ttk.Label(mainframe, image=David_Image).grid(column=0, row=1)
+Eric_Label = ttk.Label(mainframe, image=Eric_Image).grid(column=1, row=1)
+Frans_Label = ttk.Label(mainframe, image=Frans_Image).grid(column=2, row=1)
+George_Label = ttk.Label(mainframe, image=George_Image).grid(column=3, row=1)
+Herman_Label = ttk.Label(mainframe, image=Herman_Image).grid(column=4, row=1)
+Joe_Label = ttk.Label(mainframe, image=Joe_Image).grid(column=5, row=1)
+Maria_Label = ttk.Label(mainframe, image=Maria_Image).grid(column=6, row=1)
+Max_Label = ttk.Label(mainframe, image=Max_Image).grid(column=7, row=1)
+Paul_Label = ttk.Label(mainframe, image=Paul_Image).grid(column=0, row=2)
+Peter_Label = ttk.Label(mainframe, image=Peter_Image).grid(column=1, row=2)
+Phillip_Label = ttk.Label(mainframe, image=Phillip_Image).grid(column=2, row=2)
+Richard_Label = ttk.Label(mainframe, image=Richard_Image).grid(column=3, row=2)
+Robert_Label = ttk.Label(mainframe, image=Richard_Image).grid(column=4, row=2)
+Sam_Label = ttk.Label(mainframe, image=Sam_Image).grid(column=5, row=2)
+Susan_Label = ttk.Label(mainframe, image=Susan_Image).grid(column=6, row=2)
+Tom_Label = ttk.Label(mainframe, image=Tom_Image).grid(column=7, row=2)
+
+
+Human_Mystery_Character = random.choice(Character_List)
+Computer_Mystery_Character = random.choice(Character_List)
+
+for item in Character_List:
+    print(item)
+
+Mystery_Character_LabelFrame = ttk.Labelframe(mainframe, text= "Your Mystery Character").grid(column=8, row=0)
+Mystery_Character_Image = ttk.Label(Mystery_Character_LabelFrame)
+
+
 window.mainloop()

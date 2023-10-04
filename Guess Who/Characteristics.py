@@ -1,5 +1,2 @@
-Hair_Color_Options = ["Red", "Black", "White", "Brown", "Blonde"]
-
-Characteristics_Dict = {
-    "Hair_Color": Hair_Color_Options 
-}
+Character_List = [ "Alex", "Alfred", "Anita", "Anne", "Bernard", "Bill", "Charles", "Claire", "David", "Eric", "Frans", "George", "Herman", "Joe", "Maria", "Max", "Paul", "Peter", "Phillip", "Richard", "Robert", "Sam", "Susan", "Tom"]
+Attribute_List = [ "Blonde Hair", "Brown Hair", "Red Hair", "Black Hair", "Brown Eyes", "Blue Eyes", " A Hat", "Glasses", "Large Eyebrows", "Facial Hair"]
