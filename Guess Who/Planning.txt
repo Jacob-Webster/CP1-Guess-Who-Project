@@ -1,0 +1,48 @@
+
+Determine youngest player they will always go first
+
+Step 1 > Players randomly pick a mystery character
+
+Loop:
+
+1. Player_Up chooses between: Guess Mystery Character, Ask Question
+2. Player_Up asks question based on character looks
+3. Player_Down answers yes or no
+4. Player_Up eliminates characters on their board depending on response
+5. switch roles
+
+exception:
+
+mystery player guessed right? -> Player_Up wins
+
+mystery player guessed wrong? -> Player_Down wins
+
+Game Loop
+while wins < 5 play Game
+
+send back to mystery character selection
+
+
+Ideas:
+
+Idea 1:
+
+list of characters that contain booleans of whether they have certain features
+2d list with 0's representing eliminated characters and ? representing people
+users could select row/column to see characters details
+
+problems: takes a long time to look at all characters, guesses that dont contain one of characters boolean values wont elimate them
+
+
+Idea 2:
+
+tkinter GUI with buttons(buttons have characters name) that make a graph(board)
+players can click button and pull up a image of the character allowing them to make more precise guesses
+
+problems: harder to eliminate characters and guesses are more subjective
+
+Questions?
+
+Combination of both?
+along with image list a few attributes that character has to make ruling them out less subjective?
+Way to view all characters at one time?
