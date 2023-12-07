@@ -46,3 +46,66 @@ Questions?
 Combination of both?
 along with image list a few attributes that character has to make ruling them out less subjective?
 Way to view all characters at one time?
+
+Alex
+Alfred
+Anita
+Anne
+Bernard
+Bill
+Charles
+Claire
+David
+Eric
+Frans
+George
+Herman
+Joe
+Maria
+Max
+Paul
+Peter
+Phillip
+Richard
+Robert
+Sam
+Susan
+Tom
+
+Blonde Hair
+Brown Hair
+Red Hair
+Black Hair
+White Hair
+Brown Eyes
+Blue Eyes
+A Hat
+Glasses
+Large Eyebrows
+Facial Hair
+
+
+Alex_Attributes =    [False,False,False,True,False,True,False,False,False,False,True,]
+Alfred_Attributes =  [False,False,True,False,False,True,False,False,False,True,True,]
+Anita_Attributes =   [False,False,False,False,True,False,True,False,False,False,False,]
+Anne_Attributes =    [False,False,False,True,False,True,False,False,False,False,False,]
+Bernard_Attributes = [False,True,False,False,False,True,False,True,False,True,False,]
+Bill_Attributes =    [False,False,True,False,False,True,False,False,False,False,True,]
+Charles_Attributes = [True,False,False,False,False,True,False,False,False,True,True,]
+Claire_Attributes =  [False,False,True,False,False,True,False,True,True,False,False,]
+David_Attributes =   [True,False,False,False,False,True,False,False,False,False,True,]
+Eric_Attributes =    [True,False,False,False,False,True,False,True,False,False,False,]
+Frans_Attributes =   [False,False,True,False,False,True,False,False,False,False,False,]
+George_Attributes =  [False,False,False,False,True,True,False,True,False,False,False,]
+Herman_Attributes =  [False,False,True,False,False,True,False,False,False,False,False,]
+Joe_Attributes =     [True,False,False,False,False,True,False,False,True,True,False,]
+Maria_Attributes =   [False,True,False,False,False,True,False,True,False,False,False,]
+Max_Attributes =     [False,True,False,False,False,True,False,False,False,False,True,]
+Paul_Attributes =    [False,False,False,False,True,True,False,False,False,False,False,]
+Peter_Attributes =   [False,False,False,False,True,False,True,False,False,False,False,]
+Phillip_Attributes = [False,False,False,True,False,True,False,False,False,False,True,]
+Richard_Attributes = [False,True,False,False,False,True,False,False,False,True,True,]
+Robert_Attributes =  [False,False,True,False,False,False,True,False,False,False,False,]
+Sam_Attributes =     [False,False,False,False,True,True,False,False,True,True,False,]
+Susan_Attributes =   [True,False,False,False,False,True,False,False,False,False,False,]
+Tom_Attributes =     [False,True,False,False,False,False,True,False,True,False,False,]
